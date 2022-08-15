@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body{
+  height: 100%;
+}
+body{
+  background-color: black;
+}
+
+.searchTerm {
+  width: 20%;
+  border: 3px solid #00B4CC;
+  /* border-right: none; */
+  padding: 4px;
+  height: 20px;
+  font-weight: 700;
+  margin-top: 1%;
+  margin-left: 38%;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  /* text-align: center; */
+}
+.searchTerm:focus{
+  color: black;
+}
+.searchButton {
+  width: 80px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  height: 34px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  /* text-align: center; */
+}
+.heading_h1{
+  text-align: center;
+  font-weight: 900;
+  font-size: 4rem;
+  color: white;
+}
+h3{
+  text-align: center;
+  margin-top: 1%;
+  color: white;
+}
+
+.cocktail_description{
+    margin-left: 30%;
+    height: 80%;
+    width: 40%;
+    /* border: 2px solid green; */
+    margin-top: 1%;
+}
+.Name_section{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  /* margin-top: 4%; */
+  height: 10%;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+/* .cocktail_Name{
+  color: white;
+} */
+
+img {
+  height: 100%;
+  margin-left: 30%;
+}
+ul{
+  height: 33%;
+  width: 100%;
+  /* border: 2px solid green; */
+  color: white;
+}
+ul>li{
+  padding-top: 5%;
+  padding-left: 42%;
+}
+.image_section{
+  height: 33%;
+  width: 100%;
+}
+.Description_section{
+  /* margin-top: 22%; */
+  height: 22%;
+  width: 100%;
+  /* border: 2px solid green; */
+}
