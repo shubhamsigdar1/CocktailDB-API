@@ -4,6 +4,8 @@
 
 ## Tech Used: ![JAVASCRIPT BADGE](https://img.shields.io/badge/JAVASCRIPT-000000?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
 
+## More Projects
+
 <table bordercolor="#66b2b2">
   
   <tr>
